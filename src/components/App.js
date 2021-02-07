@@ -9,22 +9,18 @@ class App extends Component {
   // makes props available in this component
   constructor(props) {
     super(props);
-    this.state = {
-      
-    };
-  }
-
-  componentDidMount() {
     
   }
 
   render() {
     return (
       <>
+      <div>
         <Router>
           <HomePage path="/"/>
           <NotFound default />
         </Router>
+        </div>
       </>
     );
   }

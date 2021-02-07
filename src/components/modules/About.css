@@ -1,0 +1,130 @@
+.About-container{
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    /* align-items: center; */
+    padding: 5%;
+}
+
+.About-pfp{
+    border: 0px solid var(--grey);
+    border-radius: 32px;
+    box-shadow: 0 0 40px  var(--grey);
+    max-width: 278px;
+    height: 478px;
+    margin-right: 5%;
+}
+
+.image-container{
+    max-width: 278px;
+    max-height: 478px;
+    margin-right: 5%;
+
+}
+
+.bio-container{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+}
+
+.bio-text{
+    font-size: 28px;
+}
+
+.bio-routes{
+    text-decoration: underline;
+    cursor: pointer;
+    color: black;
+}
+
+.bio-routes:hover{
+    color: #0269a4;
+}
+
+.Courses-container{
+    display: flex;
+    flex-direction: row;
+    margin-left: 2%;
+    margin-right: 2%;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.show-button:hover{
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.courses-subcontainer{
+    display: flex;
+    flex-direction: column;
+    padding-left: 5%;
+    padding-right: 5%;
+    width: fit-content;
+
+}
+
+.projects-container{
+    display: flex;
+    flex-direction: column;
+    padding-left: 5%;
+    padding-right: 5%;
+    width: fit-content;
+}
+
+.site-card{
+    background-color: #fefdf0;
+    border-radius: 16px;
+    margin-bottom: 8%;
+    margin-top: 5%;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-bottom: 2%;
+    width: fit-content;
+    box-shadow: 0 0 40px  #ccc;
+}
+
+.site-card:hover{
+    transform: scale(1.2);
+    transition: 0.8s ease-in-out;
+    cursor: pointer;
+}
+
+.site-img{
+    max-width: 500px;
+    margin-right: auto;
+    margin-left: auto;
+    border-radius: 8px;
+}
+
+.single-class{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    background-color: #fefdf0;
+    border-radius: 8px;
+    margin-top: 5%;
+    padding-left: 2%;
+    padding-right: 2%;
+    width: 100%;
+    box-shadow: 0 0 40px  #ccc;
+    padding-bottom: 2%;
+}
+
+.title-text{
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.name-div{
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;
+    margin-bottom: 2%;
+}
+
+.description-text{
+    max-width: 500px;
+}

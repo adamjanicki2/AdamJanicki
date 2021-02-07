@@ -1,0 +1,32 @@
+.navbar-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-evenly;
+    max-width: 100%;
+    padding-left: 1%;
+    padding-right: 1%;
+    background-color: var(--bluegreen);
+}
+
+.homepage-container{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+
+}
+
+.content-container{
+    flex-grow: 1;
+}
+
+.header-links:hover{
+    opacity: 0.75;
+    border-bottom: 3px solid var(--grey);
+    cursor: pointer;
+}
+
+.selected-link{
+    border-bottom: 3px solid var(--grey);
+}
