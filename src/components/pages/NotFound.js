@@ -11,7 +11,7 @@ class NotFound extends Component {
       <div>
         <h1 className='u-textCenter big-text'>404 Not Found!</h1>
         <h1 className='smaller-text u-textCenter'>Sorry, pathname '{window.location.pathname}' could not be found</h1>
-        <h1 onClick={()=>{navigate('/')}} className='smaller-text u-textCenter return-home'>Return Home</h1>
+        <h1 onClick={()=>{navigate('/AdamJanicki')}} className='smaller-text u-textCenter return-home'>Return Home</h1>
       </div>
     );
   }
