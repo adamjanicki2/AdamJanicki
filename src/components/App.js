@@ -17,8 +17,10 @@ class App extends Component {
       <>
       <div>
         <Router>
+          <HomePage path="/AdamJanicki/"/>
           <HomePage path="/AdamJanicki"/>
-          <NotFound default />
+          <HomePage path=""/>
+          {/* <NotFound default /> */}
         </Router>
         </div>
       </>
