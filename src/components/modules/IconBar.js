@@ -15,7 +15,7 @@ class IconBar extends Component {
         <div className='Icon-container'>
             <a className='logoicon' rel="noreferrer" target='_blank' href='https://www.linkedin.com/in/adam-janicki-093859197/'><FontAwesomeIcon icon={faLinkedinIn} size={'3x'}/></a>
             <a className='logoicon' rel="noreferrer" target='_blank' href='https://github.com/adamjanicki2/'><FontAwesomeIcon icon={faGithubSquare} size={'3x'}/></a>
-            <a className='logoicon' rel="noreferrer" target='_blank' href = '/AdamJanickiResume.pdf'><FontAwesomeIcon icon={faFilePdf} size={'3x'}/></a>
+            <a className='logoicon' rel="noreferrer" target='_blank' href = '/AdamJanicki/AdamJanickiResume.pdf'><FontAwesomeIcon icon={faFilePdf} size={'3x'}/></a>
             <a className='logoicon' rel="noreferrer" href='mailto:ajanicki@mit.edu'><FontAwesomeIcon icon={faEnvelopeSquare} size={'3x'}/></a>
         </div>
       );
