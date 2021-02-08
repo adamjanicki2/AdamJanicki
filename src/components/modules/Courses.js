@@ -49,7 +49,7 @@ class Courses extends Component {
             <div className='projects-container'>
                 <h1 className='u-textCenter'>Projects</h1>
                 <div className='site-card' >
-                <div className='name-div'><a href='https://adamovies.herokuapp.com' target='_blank' rel='noreferrer' className='u-linked title-text'>Adamovies</a></div>
+                <div className='name-div'><a href='https://www.adamovies.com' target='_blank' rel='noreferrer' className='u-linked title-text'>Adamovies</a></div>
                     <img src={adamovies} className='site-img'/>
                     <p className='description-text'>Adamovies is an interactive site for movie and TV show geeks who like to read about what they watch. Reviews are published by admin users, and logged-in users have the ability to like and comment on reviews.</p>
                 </div>
