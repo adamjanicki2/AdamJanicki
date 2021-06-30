@@ -6,10 +6,13 @@ import HomePage from "./pages/HomePage.js";
 
 
 class App extends Component {
-  // makes props available in this component
   constructor(props) {
     super(props);
     
+  }
+
+  componentDidMount() {
+    console.log("PATHNAME: ["+window.location.pathname+"]")
   }
 
   render() {
@@ -20,7 +23,7 @@ class App extends Component {
           <HomePage path="/AdamJanicki/"/>
           <HomePage path="/AdamJanicki"/>
           <HomePage path="/"/>
-          {/* <NotFound default /> */}
+          <NotFound default />
         </Router>
         </div>
       </>
